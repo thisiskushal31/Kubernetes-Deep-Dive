@@ -21,7 +21,7 @@ jobs:
             -d '{
               "event_type": "content-updated",
               "client_payload": {
-                "source_repo": "Kubernetes-Deep-Dive",
+                "source_repo": "Containerization-Deep-Dive",
                 "source_branch": "${{ github.ref_name }}",
                 "source_commit": "${{ github.sha }}",
                 "triggered_by": "${{ github.actor }}",
